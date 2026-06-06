@@ -1,17 +1,3 @@
-"""
-Species-Aware Deformable Transformer Framework for Multi-Species Wildlife Re-Identification
-Training Script — V5 (9-species configuration)
-
-Architecture: ReDeformTR backbone + Deformable Transformer Encoder
-Loss: ArcFace + Multi-Similarity Loss
-Dataset: WildlifeReID-10K (wildlifedatasets)
-
-Note: The published IETE paper evaluates 7 species (tiger, cat, giraffe, cow, dog,
-whale, leopard). This script extends the same architecture to 9 species by adding
-sea turtle and faropig; results for the full 9-species run are reported in the
-M.E. thesis (Government College of Technology, 2026).
-"""
-
 import os
 import random
 import hashlib
