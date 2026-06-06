@@ -1,0 +1,32 @@
+# Dataset — too large to commit; download via wildlife-datasets
+data/
+
+# Pre-computed edge cache — generated locally
+edge_cache/
+
+# Saved checkpoints — generated during training
+checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter / Colab notebooks (use train.py directly)
+*.ipynb
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
